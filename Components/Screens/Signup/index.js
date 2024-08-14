@@ -20,7 +20,7 @@ const Signup = () => {
 
     if(emailvalidation(Email)){
       if(PasswordValidation(Password)){
-        Alert.alert('Signup Success',"Your Account was created Successfully !!!")
+        Alert.alert('Signup Success',"Your Account was created Successfully!!!")
       }
       else{
         Alert.alert("Password Does not meet Required Policy","Password length should be more than 5 characters & Start With a Capital letter")
